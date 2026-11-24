@@ -1,0 +1,9 @@
+[
+  {
+    "modid": "offhandnoplace",
+    "name": "Offhand No Place",
+    "description": "Blocks placement from the Backhand offhand slot.",
+    "version": "1.0.1",
+    "mcversion": "1.7.10"
+  }
+]
