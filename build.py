@@ -94,7 +94,7 @@ def build(server, output):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("server", type=Path, help="Path to the extracted GTNH 2.9.0 Java 17–26 server")
-    parser.add_argument("--output", type=Path, default=ROOT / "build/OffhandNoPlace-GTNH-1.0.1.jar")
+    parser.add_argument("--output", type=Path, default=ROOT / "build/OffhandNoPlace-GTNH-1.0.2.jar")
     args = parser.parse_args()
     build(args.server.resolve(), args.output)
     print(args.output.resolve())
